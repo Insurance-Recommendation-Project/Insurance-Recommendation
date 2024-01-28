@@ -27,7 +27,7 @@ metadata:
 spec:
   selector:
     app: recommendation
-  type: NodePort
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 8082
